@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './index.css';
 
 function Demo() {
+  // Horizontal Scrolling effect
   useEffect(()=>{
     function scrollH(e) {
       e.preventDefault();
