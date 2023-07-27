@@ -15,21 +15,23 @@ function Demo() {
   },[])
   
   return (
-    <div className="container">
-      <div className="item">
-        <h1>OUR WORK</h1>
+    <div className="main">
+      <div className="title">
+        OUR WORK
       </div>
-      <div className="item">
-        <img src="images/demo01/test1.jpg" alt="test1" />
-      </div>
-      <div className="item">
-        <img src="images/demo01/test2.jpg" alt="test2" />
-      </div>
-      <div className="item">
-        <img src="images/demo01/test3.jpg" alt="test3" />
-      </div>
-      <div className="item">
-        <img src="images/demo01/test4.jpg" alt="test4" />
+      <div className='container'>
+        <div className="item">
+          <img src="images/demo01/test1.jpg" alt="test1" />
+        </div>
+        <div className="item">
+          <img src="images/demo01/test2.jpg" alt="test2" />
+        </div>
+        <div className="item">
+          <img src="images/demo01/test3.jpg" alt="test3" />
+        </div>
+        <div className="item">
+          <img src="images/demo01/test4.jpg" alt="test4" />
+        </div>
       </div>
     </div>
   );
