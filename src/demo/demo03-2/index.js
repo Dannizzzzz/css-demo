@@ -16,7 +16,6 @@ function Demo() {
       if (scroll >= upperDistance && scroll <= (upperDistance + imgWrapWidth)) {
         var res = (scroll - upperDistance) * 0.4
         for (const element of imgTran) {
-          // element.style.transform = "translateY(50px) scale(1.5)";
           element.style.transform = `translateY(${res}px) scale(1.3)`;
         }
       }

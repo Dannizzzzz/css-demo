@@ -6,7 +6,8 @@ function Demo() {
   useEffect(()=>{
     function scrollH(e) {
       e.preventDefault();
-      document.querySelector('.container').scrollLeft += e.deltaY;
+      document.querySelector('.container').scrollLeft = 1220;
+      document.querySelector('.container').scrollLeft -= e.deltaY;
       console.log(document.querySelector('.container').scrollLeft)
     }
     if (document.querySelector('.container').addEventListener) {
@@ -17,9 +18,6 @@ function Demo() {
   
   return (
     <div className="main">
-      {/* <div className="title">
-        OUR WORK
-      </div> */}
       <div className='container'>
         <div className="item">
           <img src="images/demo01/test1.jpg" alt="test1" />
